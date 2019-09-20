@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Edit Button (Widget)">ac3439c8db440010ac38dde7489619b4</button>
+        <description/>
+        <field_name/>
+        <label>Edit</label>
+        <location>top</location>
+        <name>Edit (Widget)</name>
+        <order/>
+        <parent>1c3439c8db440010ac38dde748961995</parent>
+        <parent_table>sys_sg_form_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 19:26:07</sys_created_on>
+        <sys_id>e83439c8db440010ac38dde7489619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit (Widget)</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>sys_sg_button_instance_e83439c8db440010ac38dde7489619c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 19:26:07</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=e83439c8db440010ac38dde7489619c9"/>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Registration requests</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Registration requests</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">7a601aa6e131330078502406b6333345</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-20 16:05:49</sys_created_on>
+        <sys_id>ff13a0c5db000010915861ca0b9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Registration requests</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>sys_wizard_answer_ff13a0c5db000010915861ca0b9619ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-20 16:05:49</sys_updated_on>
+        <table/>
+        <target_url>x_393642_project_2_reimbursement_requests.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

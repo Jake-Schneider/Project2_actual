@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>* {box-sizing: border-box;}&#13;
+body { &#13;
+  margin: 0;&#13;
+  font-family: Arial, Helvetica, sans-serif;&#13;
+}&#13;
+&#13;
+.header {&#13;
+  overflow: hidden;&#13;
+  background-color: #f1f1f1;&#13;
+  padding: 5px 5px;&#13;
+}&#13;
+&#13;
+.header a {&#13;
+  float: left;&#13;
+  color: black;&#13;
+  text-align: center;&#13;
+  padding: 12px;&#13;
+  text-decoration: none;&#13;
+  font-size: 18px; &#13;
+  line-height: 25px;&#13;
+  border-radius: 4px;&#13;
+}&#13;
+&#13;
+.header a.logo {&#13;
+  //font-weight: bold;&#13;
+}&#13;
+&#13;
+img{&#13;
+  height: 40px;&#13;
+  width: 120px;&#13;
+}&#13;
+&#13;
+.header a:hover {&#13;
+  background-color: #ddd;&#13;
+  color: black;&#13;
+}&#13;
+&#13;
+.header a.active {&#13;
+  //background-color: dodgerblue;&#13;
+  color: white;&#13;
+}&#13;
+&#13;
+.header-right {&#13;
+  float: right&#13;
+}&#13;
+&#13;
+@media screen and (max-width: 500px) {&#13;
+  .header a {&#13;
+    float: none;&#13;
+    display: block;&#13;
+    text-align: left;&#13;
+  }&#13;
+  &#13;
+  .header-right {&#13;
+    float: none;&#13;
+  }&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>hw_2</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Header_Widget_Proj2_scope</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 19:28:53</sys_created_on>
+        <sys_id>cdd479c8db440010ac38dde74896197b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Header_Widget_Proj2_scope</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>sp_widget_cdd479c8db440010ac38dde74896197b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 20:22:25</sys_updated_on>
+        <template><![CDATA[<div class="header">
+  <div class="logo">
+  	 <a href="#default" class="logo">
+       <img src='https://maps.hillsboroughcounty.org/RoadNameCheck/img/hc-logo-horizontal-RGB.png'>
+ 		 </a>
+  </div>
+  <div class="header-right">
+    <div< </div>
+    <a href="#contact">Residents</a>
+    <a href="#about">Business</a>
+    <a href="#government">Government</a>
+    <a href="#about">About Hillsborough</a>
+    <a class="active" href="#home" style="color: red">I Want To</a>
+  	<div class="hc-search-element">
+        <div class="hc-nav-element hc-search">
+            <form class="navbar-form navbar-left hc-nav-search-form" method="get" action="https://www.hillsboroughcounty.org/en/search" role="search">
+                <div class="input-group">
+                    <span class="input-group-addon hc-input-icon-addon">
+                        <span class="glyphicon glyphicon-search hc-nav-search-icon"></span>
+                    </span>
+                    <input type="text" name="q" class="form-control hc-nav-search data-hj-whitelist" id="hc-nav-search-input" placeholder="Search" aria-label="Search">
+                </div>
+                <span class="sr-only">
+                    <button type="submit">Search</button>
+                </span>
+            </form>
+            <span class="glyphicon glyphicon-remove hc-nav-search-remove-icon" style="display: none;"></span>
+        </div>
+    </div>
+</div>
+
+ 
+]]></template>
+    </sp_widget>
+</record_update>

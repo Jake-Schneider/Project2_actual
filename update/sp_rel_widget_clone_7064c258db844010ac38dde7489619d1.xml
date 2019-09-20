@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="Voting Catalog Items">7864c258db844010ac38dde7489619cd</child>
+        <cloned>2019-09-18 15:15:21</cloned>
+        <last_validated>2019-09-18 15:15:21</last_validated>
+        <parent display_value="">2af40d7bb7a313007ebbe4b8ee11a975</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function() {
+  var c = this;
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;catalog_items&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function(scope,elem, attrs, ctrl,$location) {
+	var panel_height;
+
+	$(document).ready(function(){
+		resize_window();
+	});
+
+	$(window).resize(function(){
+		resize_window();
+	});
+
+	function resize_window(){
+		var panel_height = ($(document).height()- 64) + 'px';
+		$(elem).find('#catalog_items').css('height',panel_height);
+	}
+}
+]]&gt;&lt;/link&gt;&lt;name&gt;Catalog Items&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+   data.src = "sn_cmp_bp_cat_item_list.do?sysparm_query=catalog_type=1&amp;sysparm_order=sys_updated_on&amp;sysparm_order_direction=desc";
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-02 18:46:17&lt;/sys_created_on&gt;&lt;sys_id&gt;2af40d7bb7a313007ebbe4b8ee11a975&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Catalog Items&lt;/sys_name&gt;&lt;sys_package display_value="Cloud Management Platform" source="sn_cmp"&gt;80d50579eb203200979aa5115206fedd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Cloud Management Platform"&gt;80d50579eb203200979aa5115206fedd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_2af40d7bb7a313007ebbe4b8ee11a975&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-06 01:20:47&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+  &lt;iframe id="catalog_items" ng-src="{{data.src}}" scrolling="yes" frameborder="0" class="height-100"&gt;&lt;/iframe&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-18 15:15:21</sys_created_on>
+        <sys_id>7064c258db844010ac38dde7489619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7864c258db844010ac38dde7489619cd</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_7064c258db844010ac38dde7489619d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-18 15:15:21</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>New (Widget)</name>
+        <query_condition table="sp_widget">sys_idSTARTSWITH{{Widget sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{Widget sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 19:26:06</sys_created_on>
+        <sys_id>183439c8db440010ac38dde74896199d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New (Widget)</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_183439c8db440010ac38dde74896199d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 19:26:06</sys_updated_on>
+        <table>sp_widget</table>
+        <template>category={{Widget category}}^client_script={{Widget client_script}}^controller_as={{Widget controller_as}}^css={{Widget css}}^data_table={{Widget data_table}}^demo_data={{Widget demo_data}}^description={{Widget description}}^docs={{Widget docs}}^field_list={{Widget field_list}}^has_preview={{Widget has_preview}}^id={{Widget id}}^internal={{Widget internal}}^link={{Widget link}}^name={{Widget name}}^option_schema={{Widget option_schema}}^EQ</template>
+        <type>new</type>
+        <use_current_record_as_condition>false</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=183439c8db440010ac38dde74896199d"/>
+</record_update>

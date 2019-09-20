@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:1e7aa6ccdb080010ac38dde74896196b</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 23:29:36</sys_created_on>
+        <sys_id>45eb2ac4db480010ac38dde748961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>request_to_replace_voter_information_car</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_45eb2ac4db480010ac38dde748961938</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 23:29:36</sys_updated_on>
+        <table/>
+        <ui_policy display_value="only 1 this is">9ccbae84db480010ac38dde7489619df</ui_policy>
+        <variable>request_to_replace_voter_information_car</variable>
+        <variable_set display_value="This is: ">80a96604db480010ac38dde748961993</variable_set>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

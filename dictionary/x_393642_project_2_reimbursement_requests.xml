@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sc_req_item" label="Registration requests" max_length="40" name="x_393642_project_2_reimbursement_requests" type="collection"/>
+</database>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>hbh_2</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description>project 2 scope homepage</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 20:26:53</sys_created_on>
+        <sys_id>e8e1c688db840010ac38dde748961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>hbh_2</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>sp_page_e8e1c688db840010ac38dde748961990</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 20:26:53</sys_updated_on>
+        <title>Hillsborough Homepage</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=e8e1c688db840010ac38dde748961990"/>
+</record_update>

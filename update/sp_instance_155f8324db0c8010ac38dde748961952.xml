@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a82d0f20db0c8010ac38dde74896197e</sp_column>
+        <sp_widget/>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-19 15:21:16</sys_created_on>
+        <sys_id>155f8324db0c8010ac38dde748961952</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>sp_instance_155f8324db0c8010ac38dde748961952</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-19 15:33:43</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"hide_xs": {
+		"value": "",
+		"displayValue": ""
+	},
+	"omit_badges": {
+		"value": "",
+		"displayValue": ""
+	},
+	"check_can_view": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"category_layout": {
+		"value": "",
+		"displayValue": ""
+	},
+	"page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"number_of_categories_to_load": {
+		"value": null,
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=155f8324db0c8010ac38dde748961952"/>
+</record_update>

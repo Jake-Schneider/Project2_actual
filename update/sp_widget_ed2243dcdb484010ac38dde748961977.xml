@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>button{
+  -moz-box-shadow:inset 0px 0px 5px 0px #faa805;
+	-webkit-box-shadow:inset 0px 0px 5px 0px #faa805;
+	box-shadow:inset 0px 0px 5px 0px #faa805;
+	background-color:transparent;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #faa805;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 4px #faa805;
+}
+
+button:hover{
+  background-color: #faa805;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>register_vote</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Register_Vote</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-18 19:47:05</sys_created_on>
+        <sys_id>ed2243dcdb484010ac38dde748961977</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Register_Vote</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>sp_widget_ed2243dcdb484010ac38dde748961977</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-19 00:30:02</sys_updated_on>
+        <template><![CDATA[<div>
+
+  <button onClick="window.location.href = 'https://dev63061.service-now.com/nav_to.do?uri=%2Fcom.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3Da86e1e04db080010ac38dde748961969%26sysparm_link_parent%3De8fc4690dbc44010ac38dde7489619c0%26sysparm_catalog%3D53bc4210dbc44010ac38dde748961997%26sysparm_catalog_view%3Dcatalog_hillsborough_catalog';">
+    Register to Vote
+  </button>
+</div>]]></template>
+    </sp_widget>
+</record_update>

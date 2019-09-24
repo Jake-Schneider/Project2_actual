@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script/>
+        <controller_as>c</controller_as>
+        <css>.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.container div {
+  height: 50px;
+  border: 1px solid black;
+}
+.stripe {
+  position: relative;
+}
+.stripe::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  width: 100vw;
+  transform: translateX(-50%);
+  background: lightblue;
+  z-index: -1;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data>{"options": &#13;
+	{&#13;
+		"html": "&lt;i&gt;Hi&lt;/i&gt;",&#13;
+		"title": "HTML"&#13;
+	}&#13;
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list>title</field_list>
+        <has_preview>false</has_preview>
+        <id>css_blue_ribbon_bar</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>CSS blue ribbon BAR</name>
+        <option_schema>[{"name":"html","default_value":" &lt;b&gt;hello&lt;/b&gt;","section":"Data","label":"HTML","type":"translated_html"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script/>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-23 20:11:43</sys_created_on>
+        <sys_id>b228b44edb800010915861ca0b96198a</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>CSS blue ribbon BAR</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>sp_widget_b228b44edb800010915861ca0b96198a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-24 13:39:57</sys_updated_on>
+        <template><![CDATA[<div class="container">
+  <div></div>
+  <div class="stripe"></div>
+  <div></div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

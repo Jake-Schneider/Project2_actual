@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
         <css_variables/>
-        <default>false</default>
+        <default>true</default>
         <homepage display_value="hbh_2">e8e1c688db840010ac38dde748961990</homepage>
         <icon/>
         <kb_knowledge_base/>
@@ -20,15 +20,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-17 19:27:35</sys_created_on>
         <sys_id>ed543dc8db440010ac38dde74896198a</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Hillsborough Portal</sys_name>
         <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
         <sys_update_name>sp_portal_ed543dc8db440010ac38dde74896198a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-19 00:41:29</sys_updated_on>
-        <theme display_value="">239e0e9e4fe672407e2cfa218110c784</theme>
+        <sys_updated_on>2019-09-23 15:17:34</sys_updated_on>
+        <theme display_value="Stock">79315153cb33310000f8d856634c9c4b</theme>
         <title>Hillsborough Portal</title>
         <url_suffix>hbportal</url_suffix>
     </sp_portal>
@@ -38,6 +38,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
+        <encryption_context/>
         <file_name>logo</file_name>
         <image_height>100</image_height>
         <image_width>300</image_width>

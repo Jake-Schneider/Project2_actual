@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="announcement">
+    <announcement action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <click_target>page</click_target>
+        <details/>
+        <details_link_text/>
+        <details_page display_value="emergency_preparedness">f79b59cddb800010915861ca0b9619ae</details_page>
+        <details_url/>
+        <dismiss_options>session_dismissible</dismiss_options>
+        <display_first>false</display_first>
+        <display_style display_value="La Jolla Normal">633f6758c31023002ff2554d81d3ae58</display_style>
+        <from>2019-09-21 18:21:44</from>
+        <glyph/>
+        <glyph_alt_text/>
+        <name>Emergency articles</name>
+        <public>true</public>
+        <roles/>
+        <summary>Follow the link to articles about what to do incase of an emergency</summary>
+        <sys_class_name>announcement</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-21 18:22:50</sys_created_on>
+        <sys_id>aeab021ddb400010915861ca0b96198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency articles</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>announcement_aeab021ddb400010915861ca0b96198f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-21 18:22:50</sys_updated_on>
+        <title>Be sure to stay prepared during hurrican season</title>
+        <to/>
+        <type>67eaf134e7a3320075c2a117c2f6a9d2,52fa79f8e763320075c2a117c2f6a991</type>
+    </announcement>
+    <sys_translated_text action="delete_multiple" query="documentkey=aeab021ddb400010915861ca0b96198f"/>
+</record_update>

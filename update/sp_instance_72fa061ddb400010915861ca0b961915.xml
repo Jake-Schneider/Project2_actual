@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">c2634218db844010ac38dde74896197e</sp_column>
+        <sp_widget display_value="Announcements">94c300c7e777320075c2a117c2f6a9e7</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-21 18:18:05</sys_created_on>
+        <sys_id>72fa061ddb400010915861ca0b961915</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Hillsborough Announcments</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>sp_instance_72fa061ddb400010915861ca0b961915</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-22 18:24:04</sys_updated_on>
+        <title>Hillsborough Announcments</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "Hillsborough Announcments",
+		"displayValue": "Hillsborough Announcments"
+	},
+	"glyph": {
+		"value": "",
+		"displayValue": ""
+	},
+	"type": {
+		"value": "67eaf134e7a3320075c2a117c2f6a9d2",
+		"displayValue": "Widget"
+	},
+	"paginate": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"max_records": {
+		"value": null,
+		"displayValue": ""
+	},
+	"view_all_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"use_display_style": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=72fa061ddb400010915861ca0b961915"/>
+</record_update>

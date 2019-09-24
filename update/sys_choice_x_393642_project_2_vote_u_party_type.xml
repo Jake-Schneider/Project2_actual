@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_party_type" table="x_393642_project_2_vote" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_party_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Republican</label>
+            <language>en</language>
+            <name>x_393642_project_2_vote</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-22 18:57:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>078dd3a5db8c0010915861ca0b96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-22 18:57:18</sys_updated_on>
+            <value>republican</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_party_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Democrat</label>
+            <language>en</language>
+            <name>x_393642_project_2_vote</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-22 18:57:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>878dd3a5db8c0010915861ca0b96199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-22 18:57:18</sys_updated_on>
+            <value>democrat</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_party_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Libertarian</label>
+            <language>en</language>
+            <name>x_393642_project_2_vote</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-22 18:57:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>078dd3a5db8c0010915861ca0b96199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-22 18:57:18</sys_updated_on>
+            <value>libertarian</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_party_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_393642_project_2_vote</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-22 18:57:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>838dd3a5db8c0010915861ca0b96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-22 18:57:18</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_party_type</element>
+            <name>x_393642_project_2_vote</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-22 18:57:18</sys_created_on>
+            <sys_id>8f8dd3a5db8c0010915861ca0b96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_party_type</sys_name>
+            <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+            <sys_update_name>sys_choice_x_393642_project_2_vote_u_party_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-22 18:57:18</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

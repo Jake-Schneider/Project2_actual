@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Vote" max_length="40" name="x_393642_project_2_vote" type="collection">
+        <element default="54170e19db400010915861ca0b961920" label="Election candidates" max_length="32" name="u_candidate_type" read_only="true" reference="sys_user_group" type="reference"/>
+        <element label="Voting Location" max_length="32" name="u_location" read_only="true" reference="x_393642_project_2_polling_locations" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Party Affiliation" max_length="40" name="u_party_type" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Republican" sequence="0" value="republican"/>
+                <element inactive_on_update="false" label="Democrat" sequence="1" value="democrat"/>
+                <element inactive_on_update="false" label="Libertarian" sequence="2" value="libertarian"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element default="5ae30295db400010915861ca0b961985" label="Residency" max_length="32" name="u_residency" read_only="true" reference="sys_user_group" type="reference"/>
+        <element dependent="u_candidate_type" dependent_on_field="u_candidate_type" label="vote" max_length="32" name="u_vote" read_only="true" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" default="let your candidate know something" label="Voter Input" max_length="2000" name="u_voter_input" type="string"/>
+        <element dependent="u_residency" dependent_on_field="u_residency" label="Voter Name" max_length="32" name="u_voter_name" read_only="true" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <index name="index">
+            <element name="u_residency"/>
+        </index>
+        <index name="index2">
+            <element name="u_voter_name"/>
+        </index>
+        <index name="index3">
+            <element name="u_candidate_type"/>
+        </index>
+        <index name="index4">
+            <element name="u_location"/>
+        </index>
+        <index name="index5">
+            <element name="u_vote"/>
+        </index>
+    </element>
+</database>

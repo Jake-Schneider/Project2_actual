@@ -29,6 +29,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
+        <encryption_context/>
         <file_name>desktop_image</file_name>
         <image_height>100</image_height>
         <image_width>300</image_width>

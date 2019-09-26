@@ -79,7 +79,7 @@
 	//}
 	
 	$scope.leaveSlide = function($event){
-		var active = document.querySelector('.active')
+		var active = document.querySelector('.active');
 		if(active) active.classList.replace("active", "sub-menu");
 		if(slider) slider.classList.replace("start-slide","slider");
 	}
@@ -313,14 +313,14 @@ data.loginWidget = $sp.getWidgetFromInstance('login-modal');]]></script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-25 23:01:00</sys_created_on>
         <sys_id>0a12b7eedb044010915861ca0b961981</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Hillsborough Header 2</sys_name>
         <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
         <sys_update_name>sp_header_footer_0a12b7eedb044010915861ca0b961981</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-26 14:19:57</sys_updated_on>
+        <sys_updated_on>2019-09-26 16:18:42</sys_updated_on>
         <template><![CDATA[<div>
   <nav class="navbar-inverse" ng-class="::{'navbar':!isViewNative, 'is-native': isViewNative}"
        role="navigation">
@@ -364,7 +364,7 @@ data.loginWidget = $sp.getWidgetFromInstance('login-modal');]]></script>
       </ul>
     </div>
   </nav>
-  <div id="animated-header" class="slider" ng-mouseenter = "enterSlider($event)" ng-mouseleave="leaveSlide($event)"></div>
+  <div id="animated-header" class="slider" ng-mouseenter = "enterSlide($event)" ng-mouseleave="leaveSlide($event)"></div>
 </div>]]></template>
     </sp_header_footer>
 </record_update>

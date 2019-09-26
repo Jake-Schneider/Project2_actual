@@ -56,14 +56,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-17 22:32:51</sys_created_on>
         <sys_id>a86e1e04db080010ac38dde748961969</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Voter Registration</sys_name>
         <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
         <sys_update_name>sc_cat_item_a86e1e04db080010ac38dde748961969</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-22 20:07:43</sys_updated_on>
+        <sys_updated_on>2019-09-26 14:05:06</sys_updated_on>
         <template/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
@@ -71,7 +71,7 @@
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
-        <workflow display_value="Registration requests">e1b76310db4c4010ac38dde748961917</workflow>
+        <workflow display_value="request task">fe0c083adb844010915861ca0b96196e</workflow>
     </sc_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=a86e1e04db080010ac38dde748961969"/>
     <fx_price action="delete_multiple" query="id=a86e1e04db080010ac38dde748961969"/>

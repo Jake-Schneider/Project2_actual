@@ -71,7 +71,7 @@
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
-        <workflow display_value="absentee request">c2931215db800010915861ca0b9619a5</workflow>
+        <workflow/>
     </sc_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=2069376cdb8c8010ac38dde748961952"/>
     <fx_price action="delete_multiple" query="id=2069376cdb8c8010ac38dde748961952"/>

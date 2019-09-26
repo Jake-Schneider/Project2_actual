@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE">
+        <sp_angular_provider display_value="scBindHtmlCompile">631d65a287300300e0ef0cf888cb0ba3</sp_angular_provider>
+        <sp_widget display_value="SC catalog item new">e0984bd6db080010915861ca0b9619ef</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-25 01:21:06</sys_created_on>
+        <sys_id>e8984f5adb080010915861ca0b96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scBindHtmlCompile.SC catalog item new</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_e8984f5adb080010915861ca0b96193f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-25 01:21:06</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+</record_update>

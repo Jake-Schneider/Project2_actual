@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Type of Permit Requested" max_length="40" name="x_393642_project_2_type_of_permit_requested" type="collection">
+        <element label="In-Store Sparkler" max_length="40" name="in_store_sparkler" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Tent &amp; Sparkler" max_length="40" name="tent_sparkler" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

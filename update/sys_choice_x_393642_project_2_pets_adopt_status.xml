@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="adopt_status" table="x_393642_project_2_pets" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>adopt_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Available</label>
+            <language>en</language>
+            <name>x_393642_project_2_pets</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-25 05:09:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9fdc3b9adb880010915861ca0b9619a9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-25 05:10:57</sys_updated_on>
+            <value>available</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>adopt_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Currently Available</label>
+            <language>en</language>
+            <name>x_393642_project_2_pets</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-25 06:07:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c13a80a6dbc80010915861ca0b961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-25 06:07:51</sys_updated_on>
+            <value>Not Currently Available</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>adopt_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pre-Adoptable</label>
+            <language>en</language>
+            <name>x_393642_project_2_pets</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-25 06:07:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b43a40a6dbc80010915861ca0b9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-25 06:07:50</sys_updated_on>
+            <value>Pre-Adoptable</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>adopt_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pre-Adopted</label>
+            <language>en</language>
+            <name>x_393642_project_2_pets</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-25 06:07:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>343a40a6dbc80010915861ca0b9619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-25 06:07:50</sys_updated_on>
+            <value>Pre-Adopted</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>adopt_status</element>
+            <name>x_393642_project_2_pets</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-25 05:09:34</sys_created_on>
+            <sys_id>d7dc3b9adb880010915861ca0b9619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>adopt_status</sys_name>
+            <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+            <sys_update_name>sys_choice_x_393642_project_2_pets_adopt_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-25 05:09:34</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

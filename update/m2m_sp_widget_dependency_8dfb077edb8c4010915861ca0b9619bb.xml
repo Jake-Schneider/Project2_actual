@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
+        <sp_dependency display_value="CAB Workbench - Calendar">d5fa8f5a9f131200b18a7feea57fcf9c</sp_dependency>
+        <sp_widget display_value="P2 - Calendar">0dfb077edb8c4010915861ca0b9619b9</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-26 14:52:51</sys_created_on>
+        <sys_id>8dfb077edb8c4010915861ca0b9619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CAB Workbench - Calendar.P2 - Calendar</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_8dfb077edb8c4010915861ca0b9619bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-26 14:52:51</sys_updated_on>
+    </m2m_sp_widget_dependency>
+</record_update>

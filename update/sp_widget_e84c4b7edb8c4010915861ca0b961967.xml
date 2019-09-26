@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, runtimeState, meetingAgenda, spUtil, $log) {
+	var c = this;
+	var isAlreadyWarned = false;
+	var meetingId = c.data.sys_id;
+	var RELEVANT_FIELDS = ['start_date', 'end_date', 'short_description',
+												 'number', 'assigned_to', 'assignment_group'];
+	c.configOptions = {};
+	c.keyNav = true;
+	
+	runtimeState.get(meetingId)
+	.then(function (rst) {
+		$scope.rst = rst;
+		return meetingAgenda.get(meetingId);
+	})
+	.then(function(agenda){
+		$scope.agenda = agenda;
+	});
+	
+	function refreshCalendar(agendaItemId) {
+		if (!agendaItemId) {
+			c.change = null;
+			return;
+		}
+		var agendaItem = meetingAgenda.getAgendaItem(agendaItemId);
+		if (!agendaItem.task.record) {
+			c.change = null;
+			return;
+		}
+		c.change = agendaItem.task.record;
+	}
+	
+	$scope.$watch(function() {
+		return runtimeState.getViewAgendaItem();
+	}, refreshCalendar);
+	
+	c.onWarn = function (msg) {
+		if (!isAlreadyWarned) {
+			$log.warn(msg);
+			spUtil.addErrorMessage(msg);
+			isAlreadyWarned = true;
+		}
+	};
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>p2_-_calendar_2</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>P2 - calendar 2</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	data.sys_id = $sp.getParameter('sys_id');
+	data.allowConfig = true;
+	data.timeFormat = new global.CalendarUtils().getUserTimeFormat().replace(/\W*%s/, "");
+	data.dateTimeFormat = gs.getDateTimeFormat().replace(/y/g, "Y").replace(/d/g, "D");
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-26 14:54:10</sys_created_on>
+        <sys_id>e84c4b7edb8c4010915861ca0b961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>P2 - calendar 2</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>sp_widget_e84c4b7edb8c4010915861ca0b961967</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-26 14:54:10</sys_updated_on>
+        <template><![CDATA[<div role="region" aria-label="${Current Change calendar}">
+  <div ng-if="!c.change" class="panel panel-default">
+      <div class="panel-body wrapper-lg text-center">
+          ${You do not have read permission for this Change record}
+      </div>
+  </div>
+  <div ng-if="c.change" sn-cab-focus-in-out="c.onFocusInOut($isFocusIn)">
+    <sn-cab-change-calendar key-nav="{{c.keyNav}}"
+                            config-description="${Set filters to see change records as related to the CAB Agenda item being viewed.}"
+                            change="c.change"
+                            on-warn="c.onWarn($msg)"
+                            config-options="c.configOptions"
+                            is-config-available="{{c.data.allowConfig}}"
+                            auto-save-and-fetch-options-as-user-pref="true"
+                            is-updatable="{{c.change._canWrite}}"
+                            timeformat='data.timeFormat'
+                            date-time-format='data.dateTimeFormat'></sn-cab-change-calendar>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

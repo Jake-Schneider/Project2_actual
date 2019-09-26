@@ -4,7 +4,7 @@
         <availability>on_both</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Voting &amp; Information">480ceb21dbcc0010915861ca0b961984</category>
+        <category display_value="Voting Information">480ceb21dbcc0010915861ca0b961984</category>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>

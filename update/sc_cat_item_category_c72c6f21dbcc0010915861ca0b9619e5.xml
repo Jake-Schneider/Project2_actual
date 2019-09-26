@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Cast a Vote">34d5672ddb8c0010915861ca0b961909</sc_cat_item>
-        <sc_category display_value="Voting &amp; Information">480ceb21dbcc0010915861ca0b961984</sc_category>
+        <sc_category display_value="Voting Information">480ceb21dbcc0010915861ca0b961984</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-22 20:01:12</sys_created_on>

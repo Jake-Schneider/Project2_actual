@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="import_set_dog_prim2" max_length="40" name="x_393642_project_2_import_set_dog_prim2" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Adopt Status" label="Adopt Status" max_length="40" name="u_adopt_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Days in Shelter" label="Days in Shelter" max_length="40" name="u_days_in_shelter" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Est. Age" label="Est. Age" max_length="40" name="u_est__age" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Found Near" label="Found Near" max_length="51" name="u_found_near" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Image" label="Image" max_length="40" name="u_image" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Intake Date" label="Intake Date" max_length="40" name="u_intake_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Kennel #" label="Kennel #" max_length="40" name="u_kennel__" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Looks like breed" label="Looks like breed" max_length="40" name="u_looks_like_breed" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Microchip" label="Microchip" max_length="40" name="u_microchip" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Pet ID" label="Pet ID" max_length="40" name="u_pet_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Pet Name" label="Pet Name" max_length="40" name="u_pet_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sex" label="Sex" max_length="40" name="u_sex" type="string"/>
+    </element>
+</database>

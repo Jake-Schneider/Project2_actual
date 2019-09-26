@@ -14,7 +14,7 @@
         <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
         <module/>
         <order>0</order>
-        <parent/>
+        <parent display_value="Voting &amp; Elections">e8fc4690dbc44010ac38dde7489619c0</parent>
         <roles/>
         <sc_catalog display_value="Hillsborough Catalog">53bc4210dbc44010ac38dde748961997</sc_catalog>
         <show_in_cms>false</show_in_cms>
@@ -22,15 +22,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-22 20:00:48</sys_created_on>
         <sys_id>480ceb21dbcc0010915861ca0b961984</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Voting &amp; Information</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Voting Information</sys_name>
         <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
         <sys_update_name>sc_category_480ceb21dbcc0010915861ca0b961984</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-22 20:00:48</sys_updated_on>
-        <title>Voting &amp; Information</title>
+        <sys_updated_on>2019-09-25 00:08:00</sys_updated_on>
+        <title>Voting Information</title>
     </sc_category>
     <sys_translated_text action="delete_multiple" query="documentkey=480ceb21dbcc0010915861ca0b961984"/>
 </record_update>

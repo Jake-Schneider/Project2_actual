@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="P2 - calendar 2">e84c4b7edb8c4010915861ca0b961967</child>
+        <cloned>2019-09-26 14:54:10</cloned>
+        <last_validated>2019-09-26 14:54:10</last_validated>
+        <parent display_value="CAB Workbench - Change Calendar">cb7f25c39f131200b18a7feea57fcf46</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;other&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($scope, runtimeState, meetingAgenda, spUtil, $log) {
+	var c = this;
+	var isAlreadyWarned = false;
+	var meetingId = c.data.sys_id;
+	var RELEVANT_FIELDS = ['start_date', 'end_date', 'short_description',
+												 'number', 'assigned_to', 'assignment_group'];
+	c.configOptions = {};
+	c.keyNav = true;
+	
+	runtimeState.get(meetingId)
+	.then(function (rst) {
+		$scope.rst = rst;
+		return meetingAgenda.get(meetingId);
+	})
+	.then(function(agenda){
+		$scope.agenda = agenda;
+	});
+	
+	function refreshCalendar(agendaItemId) {
+		if (!agendaItemId) {
+			c.change = null;
+			return;
+		}
+		var agendaItem = meetingAgenda.getAgendaItem(agendaItemId);
+		if (!agendaItem.task.record) {
+			c.change = null;
+			return;
+		}
+		c.change = agendaItem.task.record;
+	}
+	
+	$scope.$watch(function() {
+		return runtimeState.getViewAgendaItem();
+	}, refreshCalendar);
+	
+	c.onWarn = function (msg) {
+		if (!isAlreadyWarned) {
+			$log.warn(msg);
+			spUtil.addErrorMessage(msg);
+			isAlreadyWarned = true;
+		}
+	};
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;cab-change-calendar&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;CAB Workbench - Change Calendar&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+	data.sys_id = $sp.getParameter('sys_id');
+	data.allowConfig = true;
+	data.timeFormat = new global.CalendarUtils().getUserTimeFormat().replace(/\W*%s/, "");
+	data.dateTimeFormat = gs.getDateTimeFormat().replace(/y/g, "Y").replace(/d/g, "D");
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-05-14 18:53:19&lt;/sys_created_on&gt;&lt;sys_id&gt;cb7f25c39f131200b18a7feea57fcf46&lt;/sys_id&gt;&lt;sys_mod_count&gt;74&lt;/sys_mod_count&gt;&lt;sys_name&gt;CAB Workbench - Change Calendar&lt;/sys_name&gt;&lt;sys_package display_value="Change Management - CAB Workbench" source="sn_change_cab"&gt;18351d53eb32120034d1eeea1206fe79&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Change Management - CAB Workbench"&gt;18351d53eb32120034d1eeea1206fe79&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_cb7f25c39f131200b18a7feea57fcf46&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-01 15:50:19&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div role="region" aria-label="${Current Change calendar}"&gt;
+  &lt;div ng-if="!c.change" class="panel panel-default"&gt;
+      &lt;div class="panel-body wrapper-lg text-center"&gt;
+          ${You do not have read permission for this Change record}
+      &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div ng-if="c.change" sn-cab-focus-in-out="c.onFocusInOut($isFocusIn)"&gt;
+    &lt;sn-cab-change-calendar key-nav="{{c.keyNav}}"
+                            config-description="${Set filters to see change records as related to the CAB Agenda item being viewed.}"
+                            change="c.change"
+                            on-warn="c.onWarn($msg)"
+                            config-options="c.configOptions"
+                            is-config-available="{{c.data.allowConfig}}"
+                            auto-save-and-fetch-options-as-user-pref="true"
+                            is-updatable="{{c.change._canWrite}}"
+                            timeformat='data.timeFormat'
+                            date-time-format='data.dateTimeFormat'&gt;&lt;/sn-cab-change-calendar&gt;
+  &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-26 14:54:10</sys_created_on>
+        <sys_id>2c4c8b7edb8c4010915861ca0b961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e84c4b7edb8c4010915861ca0b961967</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_2c4c8b7edb8c4010915861ca0b961966</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-26 14:54:10</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

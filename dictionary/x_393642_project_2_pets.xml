@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Pets" max_length="40" name="x_393642_project_2_pets" type="collection">
-        <element choice="1" label="Status" mandatory="true" max_length="40" name="adopt_status" type="choice">
+        <element choice="1" label="Status" max_length="40" name="adopt_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Available" value="available"/>
                 <element inactive_on_update="false" label="Adopted" sequence="0" value="adopted"/>
@@ -11,11 +11,11 @@
         <element label="Days in Shelter" max_length="40" name="days_in_shelter" type="integer"/>
         <element default="0" label="Est. Age" max_length="40" name="est_agee" type="float"/>
         <element label="Found Near" max_length="150" name="found_near" type="string"/>
-        <element label="Intake Date" mandatory="true" max_length="40" name="intake_date" type="glide_date_time"/>
+        <element label="Intake Date" max_length="40" name="intake_date" type="glide_date_time"/>
         <element label="Microchip" max_length="40" name="microchip" type="integer"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Pets Image" max_length="40" name="pets_image" type="user_image"/>
-        <element label="Pet ID" mandatory="true" max_length="10" name="pet_id" type="string"/>
+        <element label="Pet ID" max_length="10" name="pet_id" type="string"/>
         <element label="Pet Name" max_length="150" name="pet_name" type="string"/>
         <element choice="1" label="Sex" max_length="40" name="sex" type="choice">
             <choice>

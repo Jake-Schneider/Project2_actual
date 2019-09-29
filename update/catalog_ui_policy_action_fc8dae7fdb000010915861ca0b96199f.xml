@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Pet License Renewal">4e4a6afbdb000010915861ca0b961934</catalog_item>
+        <catalog_variable>IO:59e1e277db000010915861ca0b961919</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 15:13:59</sys_created_on>
+        <sys_id>fc8dae7fdb000010915861ca0b96199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pets_information</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_fc8dae7fdb000010915861ca0b96199f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 15:13:59</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide the form is not resident of hillsborough county">462daa7fdb000010915861ca0b961930</ui_policy>
+        <variable>pets_information</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

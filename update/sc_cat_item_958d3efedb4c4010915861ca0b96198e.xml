@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
     <sc_cat_item action="INSERT_OR_UPDATE">
         <active>true</active>
-        <availability>on_desktop</availability>
+        <availability>on_both</availability>
         <billable>false</billable>
         <category display_value="Library Books">ce9dfefedb4c4010915861ca0b9619ac</category>
         <cost>0</cost>
@@ -9,7 +9,7 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p>A test library book that is available for checkout.</p>]]></description>
+        <description><![CDATA[<p>The stunning debut novel from one of the most creative artists of our generation, Bobby Hall, a.k.a. Logic.</p>]]></description>
         <entitlement_script/>
         <group/>
         <hide_sp>false</hide_sp>
@@ -24,7 +24,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Test Book</name>
+        <name>Supermarket</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>true</no_cart_v2>
@@ -49,21 +49,21 @@
         <sc_catalogs>ea4dbafedb4c4010915861ca0b9619ef</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <short_description>Test Library Book</short_description>
+        <short_description>Supermarket</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-26 13:51:03</sys_created_on>
         <sys_id>958d3efedb4c4010915861ca0b96198e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Test Book</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Supermarket</sys_name>
         <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
         <sys_update_name>sc_cat_item_958d3efedb4c4010915861ca0b96198e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-27 22:32:31</sys_updated_on>
+        <sys_updated_on>2019-09-29 18:01:55</sys_updated_on>
         <template/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
@@ -121,12 +121,13 @@
         <size_bytes>11193</size_bytes>
         <size_compressed>9874</size_compressed>
         <state>available</state>
+        <sys_class_name>sys_attachment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-26 13:52:05</sys_created_on>
         <sys_id>8b0e7632db8c4010915861ca0b96197b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>guest</sys_updated_by>
-        <sys_updated_on>2019-09-26 13:52:07</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 21:42:22</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item</table_name>
         <table_sys_id>958d3efedb4c4010915861ca0b96198e</table_sys_id>
     </sys_attachment>
@@ -160,12 +161,13 @@
         <size_bytes>11193</size_bytes>
         <size_compressed>9874</size_compressed>
         <state>available</state>
+        <sys_class_name>sys_attachment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-26 13:52:15</sys_created_on>
         <sys_id>ad1eb632db8c4010915861ca0b9619a9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>guest</sys_updated_by>
-        <sys_updated_on>2019-09-26 13:52:16</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 21:42:23</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item</table_name>
         <table_sys_id>958d3efedb4c4010915861ca0b96198e</table_sys_id>
     </sys_attachment>

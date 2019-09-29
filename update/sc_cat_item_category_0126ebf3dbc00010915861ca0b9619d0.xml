@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Talking to Strangers: What We Should Know about the People We Don't Know">4ff5abb3dbc00010915861ca0b961909</sc_cat_item>
+        <sc_category display_value="Library Books">ce9dfefedb4c4010915861ca0b9619ac</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 19:21:11</sys_created_on>
+        <sys_id>0126ebf3dbc00010915861ca0b9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Library Books.Talking to Strangers: What We Should Know about the People We Don't Know</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>sc_cat_item_category_0126ebf3dbc00010915861ca0b9619d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 19:21:11</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

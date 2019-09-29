@@ -128,7 +128,9 @@
 		if(target.classList.contains("nav")){
 			slider.classList.replace("start-slide","slider");
 			subMenues[i].classList.replace("active", "sub-menu");
+			document.getElementById("subMenuTitle").innerHTML = "";
 		}
+		
 	}
 	
 }
@@ -186,136 +188,136 @@ function makeSubMenues(items, slider2) {
 
 ]]></client_script>
         <controller_as>c</controller_as>
-        <css>.header-loader {
-	float: left;
-  	width: 24px;
-  	position: relative;
-  	top: 24px;
-}
-/*
-.cart-dropdown, .wishlist-menu, .gtd-dropdown-container .empty-dropdown {
-  width: 350px;
-  padding: 0;
-  z-index: 1000;
-  border-top-left-radius: 4px !important;
-  border-top-right-radius: 4px !important;
-
-  ul {
-    max-height: 300px;
-    overflow: auto;
-  }
-
-  .subtotal {
-    display: block;
-  }
-
-  .item-image {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    max-width:100%;
-    height:auto;
-  }
-  label, p {
-    padding: 0;
-    margin: 0;
-  }
-  .media {
-    padding: 0;
-    margin: 0;
-  }
-  .media-left &gt; a {
-    display: block;
-    width: 48px;
-    max-width: 48px;
-  }
-  .media-body {
-    label {
-      font-weight: bold;
-    }
-  }
-  li.media {
-    border-top: 1px solid #cccccc;
-    padding: 1rem;
-  }
-  .panel {
-    margin: 0;
-  }
-  .panel .panel-body {
-    padding: 0;
-  }
-  .btn-clear {
-		color: #333;
-    background-color: #fff;
-  }
-  p.quantity-price {
-    padding-top: 0.5rem;
-    span {
-      color: $text-muted;
-      padding-right: 0.5rem;
-    }
-  }
-  .align-right {
-  	text-align: right;
-  }
-}
-
-
-
-.item-added-tooltip, wishlist-item-added-tooltip {
-  width: 184px;
-  font-size: 14px;
-}
-
-.gtd-dropdown-container {
-  .empty-tour-content{
-    text-align: center;
-    margin:40px 20px;
-  }
-  .dropdown-menu li {
-    a {
-      cursor: pointer;
-    }
-    min-width: 20em;
-  }
-  .label-as-badge{
-    width: 12px;
-    height: 12px;
-    display: inline-block;
-    padding: 0px;
-    padding-top: 2px;
-  }
-  .badge-container {
-    display: inline-block;
-    width: 12px;
-  }
-}
-*/
-
-span{
-  cursor: default;
-}
-
-
-.menu-item:hover {
-  border-bottom: 5px solid #78ccd2 ;
-}
-
-.menu-item {
-  text-color:#78ccd2 !important;
-  font-weight: bolder;
-  font-size: 1.6rem;
-}
-.menu-li{
-  display: inline-block !important;
-}
-
-@media  (max-width: 845px) and (min-width: 768px)  {
-	.header-menu-item ul {
-		right: auto;
-		left: auto;
-	}
-}
+        <css>.header-loader {&#13;
+	float: left;&#13;
+  	width: 24px;&#13;
+  	position: relative;&#13;
+  	top: 24px;&#13;
+}&#13;
+/*&#13;
+.cart-dropdown, .wishlist-menu, .gtd-dropdown-container .empty-dropdown {&#13;
+  width: 350px;&#13;
+  padding: 0;&#13;
+  z-index: 1000;&#13;
+  border-top-left-radius: 4px !important;&#13;
+  border-top-right-radius: 4px !important;&#13;
+&#13;
+  ul {&#13;
+    max-height: 300px;&#13;
+    overflow: auto;&#13;
+  }&#13;
+&#13;
+  .subtotal {&#13;
+    display: block;&#13;
+  }&#13;
+&#13;
+  .item-image {&#13;
+    padding: 0;&#13;
+    margin: 0;&#13;
+    text-align: center;&#13;
+    max-width:100%;&#13;
+    height:auto;&#13;
+  }&#13;
+  label, p {&#13;
+    padding: 0;&#13;
+    margin: 0;&#13;
+  }&#13;
+  .media {&#13;
+    padding: 0;&#13;
+    margin: 0;&#13;
+  }&#13;
+  .media-left &gt; a {&#13;
+    display: block;&#13;
+    width: 48px;&#13;
+    max-width: 48px;&#13;
+  }&#13;
+  .media-body {&#13;
+    label {&#13;
+      font-weight: bold;&#13;
+    }&#13;
+  }&#13;
+  li.media {&#13;
+    border-top: 1px solid #cccccc;&#13;
+    padding: 1rem;&#13;
+  }&#13;
+  .panel {&#13;
+    margin: 0;&#13;
+  }&#13;
+  .panel .panel-body {&#13;
+    padding: 0;&#13;
+  }&#13;
+  .btn-clear {&#13;
+		color: #333;&#13;
+    background-color: #fff;&#13;
+  }&#13;
+  p.quantity-price {&#13;
+    padding-top: 0.5rem;&#13;
+    span {&#13;
+      color: $text-muted;&#13;
+      padding-right: 0.5rem;&#13;
+    }&#13;
+  }&#13;
+  .align-right {&#13;
+  	text-align: right;&#13;
+  }&#13;
+}&#13;
+&#13;
+&#13;
+&#13;
+.item-added-tooltip, wishlist-item-added-tooltip {&#13;
+  width: 184px;&#13;
+  font-size: 14px;&#13;
+}&#13;
+&#13;
+.gtd-dropdown-container {&#13;
+  .empty-tour-content{&#13;
+    text-align: center;&#13;
+    margin:40px 20px;&#13;
+  }&#13;
+  .dropdown-menu li {&#13;
+    a {&#13;
+      cursor: pointer;&#13;
+    }&#13;
+    min-width: 20em;&#13;
+  }&#13;
+  .label-as-badge{&#13;
+    width: 12px;&#13;
+    height: 12px;&#13;
+    display: inline-block;&#13;
+    padding: 0px;&#13;
+    padding-top: 2px;&#13;
+  }&#13;
+  .badge-container {&#13;
+    display: inline-block;&#13;
+    width: 12px;&#13;
+  }&#13;
+}&#13;
+*/&#13;
+&#13;
+span{&#13;
+  cursor: default;&#13;
+}&#13;
+&#13;
+&#13;
+.menu-item:hover {&#13;
+  border-bottom: 5px solid #78ccd2 ;&#13;
+}&#13;
+&#13;
+.menu-item {&#13;
+  text-color:#78ccd2 !important;&#13;
+  font-weight: bolder;&#13;
+  font-size: 1.6rem;&#13;
+}&#13;
+.menu-li{&#13;
+  display: inline-block !important;&#13;
+}&#13;
+&#13;
+@media  (max-width: 845px) and (min-width: 768px)  {&#13;
+	.header-menu-item ul {&#13;
+		right: auto;&#13;
+		left: auto;&#13;
+	}&#13;
+}&#13;
 </css>
         <data_table>sp_instance_menu</data_table>
         <demo_data/>
@@ -377,14 +379,14 @@ span{
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-25 23:49:33</sys_created_on>
         <sys_id>513d3f6adb444010915861ca0b96198b</sys_id>
-        <sys_mod_count>81</sys_mod_count>
+        <sys_mod_count>86</sys_mod_count>
         <sys_name>Hillsboroug Header Menu</sys_name>
         <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
         <sys_update_name>sp_widget_513d3f6adb444010915861ca0b96198b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-28 17:41:52</sys_updated_on>
+        <sys_updated_on>2019-09-29 21:02:56</sys_updated_on>
         <template><![CDATA[<ul class="nav navbar-nav" aria-label="${Header menu}" role="menubar" ng-mouseenter="enterMenu($event)" ng-mouseleave="leaveMenu($event)" >
   <div class="header-loader" ng-class="{'invisible': !loadingIndicator}">
     <div class="hidden-xs sp-loading-indicator la-sm">

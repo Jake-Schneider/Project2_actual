@@ -46,12 +46,13 @@
         <size_bytes>12268</size_bytes>
         <size_compressed>12291</size_compressed>
         <state>available</state>
+        <sys_class_name>sys_attachment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-25 15:42:48</sys_created_on>
         <sys_id>87cdc6eadb004010915861ca0b96194f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-25 15:42:48</sys_updated_on>
+        <sys_updated_on>2019-09-29 21:42:22</sys_updated_on>
         <table_name>sp_instance</table_name>
         <table_sys_id>276d8eeadb004010915861ca0b9619d9</table_sys_id>
     </sys_attachment>
@@ -85,12 +86,13 @@
         <size_bytes>12268</size_bytes>
         <size_compressed>12291</size_compressed>
         <state>available</state>
+        <sys_class_name>sys_attachment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-25 15:42:41</sys_created_on>
         <sys_id>99cd0eaadb004010915861ca0b961922</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-25 15:42:41</sys_updated_on>
+        <sys_updated_on>2019-09-29 21:42:22</sys_updated_on>
         <table_name>sp_instance</table_name>
         <table_sys_id>276d8eeadb004010915861ca0b9619d9</table_sys_id>
     </sys_attachment>
@@ -124,12 +126,13 @@
         <size_bytes>23697</size_bytes>
         <size_compressed>13286</size_compressed>
         <state>available</state>
+        <sys_class_name>sys_attachment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-25 15:43:08</sys_created_on>
         <sys_id>4ced422edb004010915861ca0b96191c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-25 15:43:09</sys_updated_on>
+        <sys_updated_on>2019-09-29 21:42:19</sys_updated_on>
         <table_name>sp_instance</table_name>
         <table_sys_id>276d8eeadb004010915861ca0b9619d9</table_sys_id>
     </sys_attachment>

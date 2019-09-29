@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Pet License">733d5e73db000010915861ca0b96193e</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<div>
+<h2>Get Pet Registration Tags</h2>
+</div>
+<div> </div>
+<div>
+<h3>Which pets need to get a tag?</h3>
+<p>We require registration tags if your pet:</p>
+<ul style="list-style-position: inside;"><li>Lives with you in Hillsborough County</li><li>Is 4 months of age or older</li><li>Is a dog, cat or ferret</li></ul>
+<p>You now have the option to register for a tag that is valid for up to 3 years.</p>
+<h3>Ways to get a tag</h3>
+<ul style="list-style-position: inside;"><li>From a veterinarian - All veterinary clinics in Hillsborough County are required to make the County tag available at their location</li><li>In person at the Pet Resource Center. Visit the PRC at <a title="Map to Pet Resource Center" href="https://goo.gl/maps/TEqFmviKFED2" target="_blank" rel="noopener noreferrer nofollow">440 N. Falkenburg Road</a> in Tampa with your up-to-date rabies certificate</li><li>By mail. Mail in a copy of the rabies certificate your vet gives you along with a check (no cash please) made payable to BOCC to:
+<ul style="list-style-position: inside;"><li style="list-style-type: none;">Pet Resource Center<br />440 N. Falkenburg Rd.<br />Tampa, FL 33619</li></ul>
+</li></ul>
+</div>]]></description>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta>dog license, dog tags</meta>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Pet License Application</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>true</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>true</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=b4de5eb3db000010915861ca0b961949&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method>submit</request_method>
+        <roles/>
+        <sc_catalogs>53bc4210dbc44010ac38dde748961997</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description>Apply for Dog License</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 14:14:24</sys_created_on>
+        <sys_id>b4de5eb3db000010915861ca0b961949</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Pet License Application</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>sc_cat_item_b4de5eb3db000010915861ca0b961949</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 18:39:26</sys_updated_on>
+        <template/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Pet License App">f19b573fdb800010915861ca0b96194c</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=b4de5eb3db000010915861ca0b961949"/>
+    <fx_price action="delete_multiple" query="id=b4de5eb3db000010915861ca0b961949"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>b4de5eb3db000010915861ca0b961949</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 14:14:24</sys_created_on>
+        <sys_id>1fef9673db000010915861ca0b9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 14:14:24</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>b4de5eb3db000010915861ca0b961949</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 14:14:24</sys_created_on>
+        <sys_id>93ef9673db000010915861ca0b9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 14:14:24</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

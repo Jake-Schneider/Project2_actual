@@ -49,12 +49,13 @@ Requests for records of 9-1-1 calls and incident information should be made dire
         <size_bytes>9600</size_bytes>
         <size_compressed>9590</size_compressed>
         <state>available</state>
+        <sys_class_name>sys_attachment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-26 13:59:26</sys_created_on>
         <sys_id>b6bf7e72db8c4010915861ca0b9619db</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>guest</sys_updated_by>
-        <sys_updated_on>2019-09-26 13:59:28</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 21:42:23</sys_updated_on>
         <table_name>ZZ_YYsc_category</table_name>
         <table_sys_id>aa0c5e9edb440010915861ca0b9619ff</table_sys_id>
     </sys_attachment>
@@ -88,12 +89,13 @@ Requests for records of 9-1-1 calls and incident information should be made dire
         <size_bytes>14971</size_bytes>
         <size_compressed>14957</size_compressed>
         <state>available</state>
+        <sys_class_name>sys_attachment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-26 13:57:25</sys_created_on>
         <sys_id>994f3672db8c4010915861ca0b9619be</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>guest</sys_updated_by>
-        <sys_updated_on>2019-09-26 13:57:26</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 21:42:22</sys_updated_on>
         <table_name>ZZ_YYsc_category</table_name>
         <table_sys_id>aa0c5e9edb440010915861ca0b9619ff</table_sys_id>
     </sys_attachment>
@@ -127,12 +129,13 @@ Requests for records of 9-1-1 calls and incident information should be made dire
         <size_bytes>13133</size_bytes>
         <size_compressed>13079</size_compressed>
         <state>available</state>
+        <sys_class_name>sys_attachment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-26 13:56:19</sys_created_on>
         <sys_id>8d0f3672db8c4010915861ca0b961908</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>guest</sys_updated_by>
-        <sys_updated_on>2019-09-26 13:56:20</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 21:42:22</sys_updated_on>
         <table_name>ZZ_YYsc_category</table_name>
         <table_sys_id>aa0c5e9edb440010915861ca0b9619ff</table_sys_id>
     </sys_attachment>

@@ -45,12 +45,13 @@
         <size_bytes>8347</size_bytes>
         <size_compressed>8362</size_compressed>
         <state>available</state>
+        <sys_class_name>sys_attachment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-25 15:16:01</sys_created_on>
         <sys_id>72a7ce66db004010915861ca0b961942</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>guest</sys_updated_by>
-        <sys_updated_on>2019-09-25 15:16:02</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 21:42:21</sys_updated_on>
         <table_name>ZZ_YYsc_category</table_name>
         <table_sys_id>33ba5adedb440010915861ca0b96195a</table_sys_id>
     </sys_attachment>
@@ -84,12 +85,13 @@
         <size_bytes>17134</size_bytes>
         <size_compressed>17149</size_compressed>
         <state>available</state>
+        <sys_class_name>sys_attachment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-25 15:12:04</sys_created_on>
         <sys_id>09c64266db004010915861ca0b961999</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>guest</sys_updated_by>
-        <sys_updated_on>2019-09-25 15:12:05</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 21:42:16</sys_updated_on>
         <table_name>ZZ_YYsc_category</table_name>
         <table_sys_id>33ba5adedb440010915861ca0b96195a</table_sys_id>
     </sys_attachment>

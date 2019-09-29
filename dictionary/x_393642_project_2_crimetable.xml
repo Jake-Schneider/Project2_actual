@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="CrimeTable" max_length="40" name="x_393642_project_2_crimetable" type="collection">
+    <element extends="task" label="CrimeTable" max_length="40" name="x_393642_project_2_crimetable" sizeclass="4" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Actions Taken" max_length="1000" name="u_actions_taken" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Crime Description" max_length="3000" name="u_crime_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Location" max_length="300" name="u_location" type="string"/>

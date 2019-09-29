@@ -2,7 +2,7 @@
     <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
         <active>true</active>
         <color>default</color>
-        <condition>role.hasRole("itil")</condition>
+        <condition/>
         <display_1/>
         <display_2/>
         <display_date/>
@@ -12,31 +12,31 @@
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <label>Approvals &amp; Tasks</label>
-        <order>100</order>
+        <label>Pet License </label>
+        <order>400</order>
         <record_script/>
         <sc_cat_item/>
-        <sc_category/>
+        <sc_category display_value="Pet License">733d5e73db000010915861ca0b96193e</sc_category>
         <short_description/>
-        <sp_page display_value="approvals_tasks">45c90699db400010915861ca0b9619d2</sp_page>
-        <sp_rectangle_menu display_value="Hillsborough Menu">fb34c020dbcc4010ac38dde7489619c5</sp_rectangle_menu>
-        <sp_rectangle_menu_item/>
+        <sp_page display_value="sc_category">07261a2147132100ba13a5554ee49092</sp_page>
+        <sp_rectangle_menu/>
+        <sp_rectangle_menu_item display_value="Hillsborough catalog">88ff3364dbcc8010ac38dde748961994</sp_rectangle_menu_item>
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-21 18:48:05</sys_created_on>
-        <sys_id>3fa1d691db800010915861ca0b961983</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Approvals &amp; Tasks</sys_name>
+        <sys_created_on>2019-09-29 18:41:14</sys_created_on>
+        <sys_id>5cbcd37fdb800010915861ca0b961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pet License </sys_name>
         <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
-        <sys_update_name>sp_rectangle_menu_item_3fa1d691db800010915861ca0b961983</sys_update_name>
+        <sys_update_name>sp_rectangle_menu_item_5cbcd37fdb800010915861ca0b961909</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-21 18:51:52</sys_updated_on>
+        <sys_updated_on>2019-09-29 18:41:14</sys_updated_on>
         <table/>
-        <type>page</type>
+        <type>sc_category</type>
         <url/>
         <url_target/>
     </sp_rectangle_menu_item>
-    <sys_translated_text action="delete_multiple" query="documentkey=3fa1d691db800010915861ca0b961983"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=5cbcd37fdb800010915861ca0b961909"/>
 </record_update>

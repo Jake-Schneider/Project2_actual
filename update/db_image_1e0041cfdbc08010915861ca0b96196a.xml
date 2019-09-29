@@ -34,12 +34,13 @@
         <size_bytes>198349</size_bytes>
         <size_compressed>197959</size_compressed>
         <state>available</state>
+        <sys_class_name>sys_attachment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-27 00:40:46</sys_created_on>
         <sys_id>1582d9cfdb048010915861ca0b9619c0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-09-27 00:40:52</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 21:42:17</sys_updated_on>
         <table_name>ZZ_YYdb_image</table_name>
         <table_sys_id>1e0041cfdbc08010915861ca0b96196a</table_sys_id>
     </sys_attachment>

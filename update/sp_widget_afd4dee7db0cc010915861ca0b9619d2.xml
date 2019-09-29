@@ -23,10 +23,10 @@
           title: "Contact Info",
           widget: "99c4f26fdb4cc010915861ca0b96198f", 
 					buttons: [{label:'${Adopt}', primary: true} ],
-					pet: shared.selectedPet
+					shared: shared.selectedPet
 				}).then(function(){
             console.log('Pet Adopted');
-        }) 
+        }) ;
     }
  //Disable the visibility of the default modal button
  angular.element('[ng-click*="buttonClicked"]').css({visibility:'hidden'});
@@ -44,7 +44,23 @@
 }&#13;
 .pet {&#13;
  display: flex; &#13;
-}</css>
+}&#13;
+&#13;
+&#13;
+.caption{&#13;
+  font-weight: bolder;&#13;
+}&#13;
+&#13;
+.petImage{&#13;
+  width: 100%;&#13;
+  height: 200px;&#13;
+}&#13;
+&#13;
+.badge{&#13;
+  background-color: red;&#13;
+  padding: 10px;&#13;
+}&#13;
+</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
@@ -83,24 +99,24 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-28 18:49:01</sys_created_on>
         <sys_id>afd4dee7db0cc010915861ca0b9619d2</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Adoptable Pets</sys_name>
         <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
         <sys_update_name>sp_widget_afd4dee7db0cc010915861ca0b9619d2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-29 00:12:02</sys_updated_on>
+        <sys_updated_on>2019-09-29 16:39:06</sys_updated_on>
         <template><![CDATA[<div class="row pets">
  <div class="col-sm-6 col-md-3 pet" ng-repeat="pet in data.pets">
  <div class="thumbnail" ng-class="{'selected' : c.widget.options.shared.currentPet.name == pet.name}">
  <img ng-src="{{pet.photo}}">
  <div class="caption">
- <h3>{{pet.name}}</h3>
- <p>{{pet.type}}</p>
- <p>{{pet.pet_id}}</p>
- <p>{{pet.status}}</p>
-  <p>{{pet.fullName}}</p>
+  <h3>{{pet.name}}</h3>
+  <p>Type: {{pet.type}}</p>
+  <p>Tag #: {{pet.pet_id}}</p>
+  <p>Status: <span class="badge">{{pet.status}}</span></p>
+  <p>Owner: {{pet.fullName}}</p>
   
  <!--<p ng-if="!pet.owner">
    <button ng-click="c.onPrompt(pet)" class="btn btn-success">

@@ -36,12 +36,13 @@
         <size_bytes>11397</size_bytes>
         <size_compressed>11420</size_compressed>
         <state>available</state>
+        <sys_class_name>sys_attachment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-26 13:49:34</sys_created_on>
         <sys_id>567dbafedb4c4010915861ca0b9619a2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>guest</sys_updated_by>
-        <sys_updated_on>2019-09-26 13:49:35</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 21:42:19</sys_updated_on>
         <table_name>ZZ_YYsc_catalog</table_name>
         <table_sys_id>ea4dbafedb4c4010915861ca0b9619ef</table_sys_id>
     </sys_attachment>

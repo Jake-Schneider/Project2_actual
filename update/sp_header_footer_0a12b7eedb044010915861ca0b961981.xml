@@ -96,9 +96,12 @@
   background-color:#f5f7f8;
   transition: height 0.75s;
 }
+#subMenuTitle{
+  margin-left: 40px;
+}
 
 .start-slide{
-  height: 20vh;
+  height: 30vh;
   width: 100%;
   background-color: #f5f7f8;
   transition: height 0.75s;
@@ -118,7 +121,6 @@
   left: 5vw;
   
   position: absolute;*/
-  margin: 10px;
 }
 
 .sub-menu{
@@ -135,7 +137,6 @@
   font-size: 1em;
   font-weight: 600;
   padding: 10px;
-  margin: 10px;
   font-color: #044169;
  
 }
@@ -307,20 +308,22 @@ if (data.menu && data.menu.data) {
 	}
 }
 
-data.loginWidget = $sp.getWidgetFromInstance('login-modal');]]></script>
+data.loginWidget = $sp.getWidgetFromInstance('login-modal');
+
+]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_header_footer</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-25 23:01:00</sys_created_on>
         <sys_id>0a12b7eedb044010915861ca0b961981</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_name>Hillsborough Header 2</sys_name>
         <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
         <sys_update_name>sp_header_footer_0a12b7eedb044010915861ca0b961981</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-26 16:18:42</sys_updated_on>
+        <sys_updated_on>2019-09-28 17:43:33</sys_updated_on>
         <template><![CDATA[<div>
   <nav class="navbar-inverse" ng-class="::{'navbar':!isViewNative, 'is-native': isViewNative}"
        role="navigation">
@@ -364,7 +367,13 @@ data.loginWidget = $sp.getWidgetFromInstance('login-modal');]]></script>
       </ul>
     </div>
   </nav>
-  <div id="animated-header" class="slider" ng-mouseenter = "enterSlide($event)" ng-mouseleave="leaveSlide($event)"></div>
+  <div id="animated-header" class="slider" ng-mouseenter = "enterSlide($event)" ng-mouseleave="leaveSlide($event)" >
+    <h3 id="subMenuTitle">
+    </h3>
+    <div  id="animated-header2">
+      
+    </div>
+  </div>
 </div>]]></template>
     </sp_header_footer>
 </record_update>

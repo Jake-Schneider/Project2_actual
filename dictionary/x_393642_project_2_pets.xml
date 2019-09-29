@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Pets" max_length="40" name="x_393642_project_2_pets" type="collection">
-        <element choice="1" label="Adopt Status" mandatory="true" max_length="40" name="adopt_status" type="choice">
+        <element choice="1" label="Status" mandatory="true" max_length="40" name="adopt_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Available" value="available"/>
-                <element inactive_on_update="false" label="Not Currently Available" sequence="0" value="Not Currently Available"/>
-                <element inactive_on_update="false" label="Pre-Adoptable" sequence="0" value="Pre-Adoptable"/>
+                <element inactive_on_update="false" label="Adopted" sequence="0" value="adopted"/>
+                <element inactive_on_update="false" label="Lost" sequence="0" value="lost"/>
                 <element inactive_on_update="false" label="Pre-Adopted" sequence="0" value="Pre-Adopted"/>
             </choice>
         </element>
         <element label="Days in Shelter" max_length="40" name="days_in_shelter" type="integer"/>
-        <element default="0" label="ESt. Agee" max_length="40" name="est_agee" type="float"/>
+        <element default="0" label="Est. Age" max_length="40" name="est_agee" type="float"/>
         <element label="Found Near" max_length="150" name="found_near" type="string"/>
-        <element default="http://hcflgov.net/library/hillsborough/media-center/images/prc/adopt/prc_adopt-prc-icon_dog.png" label="Image" max_length="40" name="image" read_only="true" type="url"/>
         <element label="Intake Date" mandatory="true" max_length="40" name="intake_date" type="glide_date_time"/>
-        <element label="Kernel#" mandatory="true" max_length="100" name="kernel" type="string"/>
-        <element label="Looks like breed" max_length="150" name="looks_like_breed" type="string"/>
         <element label="Microchip" max_length="40" name="microchip" type="integer"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Pets Image" max_length="40" name="pets_image" type="user_image"/>
         <element label="Pet ID" mandatory="true" max_length="10" name="pet_id" type="string"/>
         <element label="Pet Name" max_length="150" name="pet_name" type="string"/>
         <element choice="1" label="Sex" max_length="40" name="sex" type="choice">
             <choice>
-                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
                 <element inactive_on_update="false" label="Female" value="female"/>
-                <element inactive_on_update="false" label="Male-Neutered" value="male"/>
-                <element inactive_on_update="false" label="Female - Spayed" sequence="0" value="Female - Spayed"/>
-                <element inactive_on_update="false" label="Male - Neutered" sequence="0" value="Male - Neutered"/>
-                <element inactive_on_update="false" label="U" sequence="0" value="U"/>
+                <element inactive_on_update="false" label="Male" value="male"/>
             </choice>
         </element>
         <element choice="1" label="Type Pet" max_length="40" name="type_pet" type="choice">
@@ -35,5 +29,11 @@
                 <element inactive_on_update="false" label="Dog" value="dog"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="u_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Full Name" max_length="40" name="u_full_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="u_owner_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_owner_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="u_phone_number" type="string"/>
     </element>
 </database>

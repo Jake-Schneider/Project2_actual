@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_393642_project_2_crimetable">x_393642_project_2_crimetable</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>CRIME</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 00:35:44</sys_created_on>
+        <sys_id>8f84afefdbccc010915861ca0b9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CRIME</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>sys_number_8f84afefdbccc010915861ca0b9619d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 00:35:44</sys_updated_on>
+    </sys_number>
+</record_update>

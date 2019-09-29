@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_time_occurred" label="Time Occurred" language="en" table="x_393642_project_2_crimetable">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_time_occurred</element>
+            <help/>
+            <hint/>
+            <label>Time Occurred</label>
+            <language>en</language>
+            <name>x_393642_project_2_crimetable</name>
+            <plural>Time Occurred</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-29 00:22:26</sys_created_on>
+            <sys_id>dc81e76fdbccc010915861ca0b96193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Time Occurred</sys_name>
+            <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+            <sys_update_name>sys_documentation_x_393642_project_2_crimetable_u_time_occurred_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-29 00:22:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

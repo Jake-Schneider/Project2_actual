@@ -5,25 +5,6 @@
             <element>sex</element>
             <hint/>
             <inactive>false</inactive>
-            <label>-- New choice --</label>
-            <language>en</language>
-            <name>x_393642_project_2_pets</name>
-            <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-25 05:21:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>60af7f9edb880010915861ca0b961931</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-25 05:21:40</sys_updated_on>
-            <value>-- New choice --</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>sex</element>
-            <hint/>
-            <inactive>false</inactive>
             <label>Female</label>
             <language>en</language>
             <name>x_393642_project_2_pets</name>
@@ -43,7 +24,7 @@
             <element>sex</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Male-Neutered</label>
+            <label>Male</label>
             <language>en</language>
             <name>x_393642_project_2_pets</name>
             <sequence/>
@@ -52,67 +33,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>aaafbf9edb880010915861ca0b96196a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-25 05:22:45</sys_updated_on>
+            <sys_updated_on>2019-09-28 18:22:48</sys_updated_on>
             <value>male</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>sex</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Female - Spayed</label>
-            <language>en</language>
-            <name>x_393642_project_2_pets</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-25 06:07:50</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>303a40a6dbc80010915861ca0b9619a8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-25 06:07:50</sys_updated_on>
-            <value>Female - Spayed</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>sex</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Male - Neutered</label>
-            <language>en</language>
-            <name>x_393642_project_2_pets</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-25 06:07:50</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>a83a00a6dbc80010915861ca0b9619c8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-25 06:07:50</sys_updated_on>
-            <value>Male - Neutered</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>sex</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>U</label>
-            <language>en</language>
-            <name>x_393642_project_2_pets</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-25 17:10:33</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>64e1a22edb404010915861ca0b961949</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-25 17:10:33</sys_updated_on>
-            <value>U</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>sex</element>

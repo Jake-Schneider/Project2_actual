@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($timeout, spModal) {
+ var c = this;
+ var shared = c.widget.options.shared; //Get the shared object from the "My Pet" widget
+ 
+	//Function that selects the pet when you click the Adopt button
+ c.selectPet = function(pet) {
+ shared.selectedPet = pet;
+
+	$timeout(function(){
+	 //The native 'close' binding from Bootstrap UI Modals is not accessible through the spModal service, therefore...
+	 //We use Angular Element within a $timeout function to simulate clicking the modal's submit button
+	 angular.element('[ng-click*="buttonClicked"]').triggerHandler('click'); 
+	 //The modal's native submit button has the ng-click attribute and calls the function "buttonClicked"
+	 //Therefore, we can target that attribute and click it
+	 });
+ }
+ 
+ c.onPrompt = function(pet) {
+        spModal.open({
+          title: "Contact Info",
+          widget: "99c4f26fdb4cc010915861ca0b96198f", 
+					buttons: [{label:'${Adopt}', primary: true} ],
+					pet: shared.selectedPet
+				}).then(function(){
+            console.log('Pet Adopted');
+        }) 
+    }
+ //Disable the visibility of the default modal button
+ angular.element('[ng-click*="buttonClicked"]').css({visibility:'hidden'});
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.thumbnail.selected {&#13;
+ box-shadow: 0 0 10px 5px #3071a9;&#13;
+}&#13;
+.pets {&#13;
+ display: -ms-flex;&#13;
+ display: -webkit-flex;&#13;
+ display: flex;&#13;
+ flex-wrap: wrap;&#13;
+}&#13;
+.pet {&#13;
+ display: flex; &#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>adoptable_pets</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Adoptable Pets</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+ //Use GlideRecord to build the list of adoptable pets, store them in the data.pets object
+ data.pets=[];
+ var petsGR = new GlideRecord('x_393642_project_2_pets');
+ petsGR.addQuery("adopt_status", "available");
+ petsGR.query();
+ while(petsGR.next()) {
+	 data.pets.push({
+	 name: petsGR.pet_name.toString(),
+	 photo: petsGR.pets_image.getDisplayValue().toString(),
+	 type: petsGR.type_pet.toString(),
+	 pet_id: petsGR.pet_id.toString(),
+	 sys_id: petsGR.sys_id.toString(),
+	 status: petsGR.adopt_status.toString(),
+	fullName: petsGR.u_full_name.toString()
+ });
+ }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-28 18:49:01</sys_created_on>
+        <sys_id>afd4dee7db0cc010915861ca0b9619d2</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Adoptable Pets</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>sp_widget_afd4dee7db0cc010915861ca0b9619d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 00:12:02</sys_updated_on>
+        <template><![CDATA[<div class="row pets">
+ <div class="col-sm-6 col-md-3 pet" ng-repeat="pet in data.pets">
+ <div class="thumbnail" ng-class="{'selected' : c.widget.options.shared.currentPet.name == pet.name}">
+ <img ng-src="{{pet.photo}}">
+ <div class="caption">
+ <h3>{{pet.name}}</h3>
+ <p>{{pet.type}}</p>
+ <p>{{pet.pet_id}}</p>
+ <p>{{pet.status}}</p>
+  <p>{{pet.fullName}}</p>
+  
+ <!--<p ng-if="!pet.owner">
+   <button ng-click="c.onPrompt(pet)" class="btn btn-success">
+    Adopt Me
+	 </button>
+  </p>  -->
+ 
+       
+ <p>
+   <button ng-click="c.selectPet(pet)" class="btn btn-primary" role="button">${Adopt} {{pet.name}}</button>
+ </p>
+ </div>
+ </div>
+ </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

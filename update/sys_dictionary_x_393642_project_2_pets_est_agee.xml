@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>ESt. Agee</column_label>
+        <column_label>Est. Age</column_label>
         <comments/>
         <create_roles/>
         <default_value>0</default_value>
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-25 05:20:03</sys_created_on>
         <sys_id>97fef39edb880010915861ca0b961904</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>ESt. Agee</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Est. Age</sys_name>
         <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
         <sys_update_name>sys_dictionary_x_393642_project_2_pets_est_agee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-25 16:43:43</sys_updated_on>
+        <sys_updated_on>2019-09-28 21:08:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

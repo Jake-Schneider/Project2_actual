@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="a43edbabdbccc010915861ca0b96191e" sys_domain="global" table="x_393642_project_2_crimetable" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reported_by</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-29 01:25:11</sys_created_on>
+            <sys_id>5fdf632bdb000410915861ca0b96193f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393642_project_2_crimetable" sys_domain="global" view="Default view">a43edbabdbccc010915861ca0b96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-29 01:25:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_location</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-29 01:25:11</sys_created_on>
+            <sys_id>d7df632bdb000410915861ca0b961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393642_project_2_crimetable" sys_domain="global" view="Default view">a43edbabdbccc010915861ca0b96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-29 01:25:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_phone_number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-29 01:25:11</sys_created_on>
+            <sys_id>5fdf632bdb000410915861ca0b961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393642_project_2_crimetable" sys_domain="global" view="Default view">a43edbabdbccc010915861ca0b96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-29 01:25:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_type_of_crime</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-29 01:25:11</sys_created_on>
+            <sys_id>d3df632bdb000410915861ca0b961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393642_project_2_crimetable" sys_domain="global" view="Default view">a43edbabdbccc010915861ca0b96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-29 01:25:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-29 01:25:11</sys_created_on>
+            <sys_id>5bdf632bdb000410915861ca0b961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393642_project_2_crimetable" sys_domain="global" view="Default view">a43edbabdbccc010915861ca0b96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-29 01:25:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_time_occurred</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-29 01:25:11</sys_created_on>
+            <sys_id>dfdf632bdb000410915861ca0b961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393642_project_2_crimetable" sys_domain="global" view="Default view">a43edbabdbccc010915861ca0b96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-29 01:25:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_suspect_description</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-29 01:25:11</sys_created_on>
+            <sys_id>57df632bdb000410915861ca0b961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393642_project_2_crimetable" sys_domain="global" view="Default view">a43edbabdbccc010915861ca0b96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-29 01:25:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-29 01:25:11</sys_created_on>
+            <sys_id>dbdf632bdb000410915861ca0b961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393642_project_2_crimetable" sys_domain="global" view="Default view">a43edbabdbccc010915861ca0b96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-29 01:25:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-29 01:25:11</sys_created_on>
+            <sys_id>53df632bdb000410915861ca0b961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393642_project_2_crimetable" sys_domain="global" view="Default view">a43edbabdbccc010915861ca0b96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-29 01:25:11</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_crime_description</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-29 01:25:11</sys_created_on>
+            <sys_id>d7df632bdb000410915861ca0b961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393642_project_2_crimetable" sys_domain="global" view="Default view">a43edbabdbccc010915861ca0b96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-29 01:25:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_actions_taken</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-29 01:25:11</sys_created_on>
+            <sys_id>5fdf632bdb000410915861ca0b961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393642_project_2_crimetable" sys_domain="global" view="Default view">a43edbabdbccc010915861ca0b96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-29 01:25:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_393642_project_2_crimetable</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-29 00:08:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a43edbabdbccc010915861ca0b96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_393642_project_2_crimetable</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+            <sys_update_name>sys_ui_section_a43edbabdbccc010915861ca0b96191e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-29 00:08:00</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

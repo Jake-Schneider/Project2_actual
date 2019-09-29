@@ -4,6 +4,7 @@
         <client_script><![CDATA[function ($scope, spUtil, $rootScope, $timeout, spAriaUtil, spGtd, $window) {
 	/* widget controller */	
 	var slider = document.getElementById('animated-header');
+	var slider2 = document.getElementById('animated-header2');
 	var menues = [];
 	var subMenues = [];
 	var links = [];
@@ -51,7 +52,8 @@
 				if (item.items || (item.scriptedItems && item.scriptedItems.count != 0))
 					$scope.visibleItems.push(item);
 			}
-			if(slider) subMenues = makeSubMenues($scope.visibleItems, slider);
+			
+			if(slider) subMenues = makeSubMenues($scope.data.menu.items, slider);
 		}
 	}, true);
 	
@@ -98,21 +100,23 @@
 	
 	//Custom animated slide-down header functionality.	
 	$scope.enterMenuLi = function(i, $event) {
-		//console.log('enter menu li');
-		//console.log($event);
-		subMenues[i].classList.replace("sub-menu", "active");
-		if(slider)
-			slider.classList.replace("slider", "start-slide");
+			if(subMenues[i]){
+				console.log("items: "+ subMenues[i].items.length )
+				if(subMenues[i].items.length > 0){
+					document.getElementById("subMenuTitle").innerHTML = subMenues[i].title;
+				} else{
+					document.getElementById("subMenuTitle").innerHTML = "";
+				}
+					subMenues[i].classList.replace("sub-menu", "active");
+			if(slider)
+				slider.classList.replace("slider", "start-slide");
+			}else{
+				document.getElementById("subMenuTitle").innerHTML = "";
+			}
 	}
 	
-	$scope.leaveMenuLi = function(i, $event){
-		//slider.classList.replace("start-slide","slider");
-		//subMenues[i].classList.replace("active", "sub-menu");
-		
-		//console.log('leave Menu Li');
-		console.log("test passed!!!!");
-		console.log("event", $event);
-		console.log("event target ", $event.toElement);
+	
+	$scope.leaveMenuLi = function(i, $event){	
 		var target = $event.toElement;
 		if(target.classList.contains("menu-item")){
 			for(var x in subMenues){
@@ -120,6 +124,7 @@
 					subMenues[x].classList.replace("active", "sub-menu");
 			}
 		}
+		
 		if(target.classList.contains("nav")){
 			slider.classList.replace("start-slide","slider");
 			subMenues[i].classList.replace("active", "sub-menu");
@@ -128,28 +133,30 @@
 	
 }
 
-function makeSubMenues(items, slider) {
+function makeSubMenues(items, slider2) {
 	var arr = [];	
-	
+	slider2.innerHtml = "";
 	for(var i in items){
 		
 		var id = ('subMenu' + i);
 		
-		if(items[i].items.length > 0){	
+		if(items[i].items && items[i].items.length > 0){
 			
 			var subMenu = document.createElement('ul');
 			subMenu.id = ('subMenu' + i);
+			subMenu.title = items[i].label;
+			subMenu.items = [];
 			subMenu.classList.add('sub-menu', 'sub-list');
 			arr.push(subMenu);
-
 			items[i].subMenu = id;
+			//console.log("lebal "+items[i].label);
+			
 			
 			for(var j in items[i].items) {
 				var current = items[i].items[j];
-				if(current.href) console.log(current);
-				
 				var label = items[i].items[j].label;
 				
+				subMenu.items.push(current);
 				var li = document.createElement('li');
 				li.classList.add("sub-menu-li");
 				
@@ -166,10 +173,13 @@ function makeSubMenues(items, slider) {
 				li.appendChild(elementA);
 				subMenu.appendChild(li);
 				
-				slider.appendChild(subMenu);
+				slider2.appendChild(subMenu);
 			}
+		}else{
+			arr.push(null);
 		}
 	}
+	
 	return arr;
 }
 
@@ -297,7 +307,7 @@ span{
   font-size: 1.6rem;
 }
 .menu-li{
-  display: inline !important;
+  display: inline-block !important;
 }
 
 @media  (max-width: 845px) and (min-width: 768px)  {
@@ -347,7 +357,7 @@ span{
 	data.menu.items = $sp.getMenuItems(menu_id);
 	data.isLoggedIn = GlideSession.get().isLoggedIn();
 	// Show tours only if gtd's sp sys property is set
-// 	data.showTours = (gs.getProperty('com.snc.guided_tours.sp.enable') === 'true') && data.isLoggedIn;
+	//data.showTours = (gs.getProperty('com.snc.guided_tours.sp.enable') === 'true') && data.isLoggedIn;
 	var catalogArr = ($sp.getCatalogs().value + "").split(",");
   
 	catalogArr.forEach(function(catalog) {
@@ -367,14 +377,14 @@ span{
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-25 23:49:33</sys_created_on>
         <sys_id>513d3f6adb444010915861ca0b96198b</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>81</sys_mod_count>
         <sys_name>Hillsboroug Header Menu</sys_name>
         <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
         <sys_update_name>sp_widget_513d3f6adb444010915861ca0b96198b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-26 18:12:54</sys_updated_on>
+        <sys_updated_on>2019-09-28 17:41:52</sys_updated_on>
         <template><![CDATA[<ul class="nav navbar-nav" aria-label="${Header menu}" role="menubar" ng-mouseenter="enterMenu($event)" ng-mouseleave="leaveMenu($event)" >
   <div class="header-loader" ng-class="{'invisible': !loadingIndicator}">
     <div class="hidden-xs sp-loading-indicator la-sm">

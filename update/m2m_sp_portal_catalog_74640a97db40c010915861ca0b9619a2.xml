@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="Library Book Catalog">ea4dbafedb4c4010915861ca0b9619ef</sc_catalog>
+        <sp_portal display_value="Hillsborough Portal">ed543dc8db440010ac38dde74896198a</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-27 22:57:07</sys_created_on>
+        <sys_id>74640a97db40c010915861ca0b9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Library Book Catalog.Hillsborough Portal</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_74640a97db40c010915861ca0b9619a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-27 22:57:07</sys_updated_on>
+    </m2m_sp_portal_catalog>
+</record_update>

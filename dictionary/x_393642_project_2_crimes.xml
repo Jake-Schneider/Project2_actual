@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="update_synch=true" extends="sys_metadata" label="Crimes" max_length="40" name="x_393642_project_2_crimes" type="collection">
+    <element attributes="update_synch=true" extends="sys_metadata" max_length="40" name="x_393642_project_2_crimes" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Actions Taken" max_length="1000" name="u_actions_taken" type="string"/>
         <element label="Reported By:" mandatory="true" max_length="32" name="u_created_by" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Crime Description" mandatory="true" max_length="3000" name="u_crime_description" type="string"/>
         <element label="Location" max_length="32" name="u_location" reference="cmn_location" type="reference"/>
         <element label="Phone Number" max_length="40" name="u_phone_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="open" label="State" max_length="40" name="u_state" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Closed" sequence="0" value="closed"/>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="Being Resolved" sequence="1" value="being resolved"/>
+                <element inactive_on_update="false" label="Closed Complete" sequence="2" value="closed complete"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Suspect Description" max_length="1000" name="u_suspect_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Time Occurred:" mandatory="true" max_length="40" name="u_time_occured" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Crime" max_length="40" name="u_type_of_crime" type="string">
@@ -18,11 +26,5 @@
                 <element inactive_on_update="false" label="Other" sequence="6" value="other"/>
             </choice>
         </element>
-        <index name="index">
-            <element name="u_created_by"/>
-        </index>
-        <index name="index2">
-            <element name="u_location"/>
-        </index>
     </element>
 </database>

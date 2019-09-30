@@ -21,13 +21,13 @@
         <list_price>0</list_price>
         <location/>
         <mandatory_attachment>false</mandatory_attachment>
-        <meta/>
+        <meta>education, policies, hillsborough, catalog</meta>
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
         <module/>
-        <name>Education Test CI</name>
+        <name>Higher Education Opportunity Act</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -59,14 +59,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-26 13:43:47</sys_created_on>
         <sys_id>10fbf6bedb4c4010915861ca0b9619e6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Education Test CI</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Higher Education Opportunity Act</sys_name>
         <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
         <sys_update_name>sc_cat_item_content_10fbf6bedb4c4010915861ca0b9619e6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-26 13:57:20</sys_updated_on>
+        <sys_updated_on>2019-09-30 11:48:02</sys_updated_on>
         <target>internal</target>
         <template/>
         <type>item</type>

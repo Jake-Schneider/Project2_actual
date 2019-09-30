@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Education Test CI">10fbf6bedb4c4010915861ca0b9619e6</sc_cat_item>
+        <sc_cat_item display_value="Higher Education Opportunity Act">10fbf6bedb4c4010915861ca0b9619e6</sc_cat_item>
         <sc_category display_value="Education Articles">561f7672db8c4010915861ca0b9619ee</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>

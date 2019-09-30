@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Education Test CI">10fbf6bedb4c4010915861ca0b9619e6</sc_cat_item>
+        <sc_cat_item display_value="Higher Education Opportunity Act">10fbf6bedb4c4010915861ca0b9619e6</sc_cat_item>
         <sc_catalog display_value="Hillsborough Catalog">53bc4210dbc44010ac38dde748961997</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>

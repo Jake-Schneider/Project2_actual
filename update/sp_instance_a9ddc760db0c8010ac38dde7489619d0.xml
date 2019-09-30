@@ -6,24 +6,24 @@
         <css/>
         <glyph/>
         <id/>
-        <order>1</order>
+        <order>2</order>
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">d83cc25ddb400010915861ca0b961916</sp_column>
+        <sp_column display_value="1">c2634218db844010ac38dde74896197e</sp_column>
         <sp_widget display_value="SC Categories">4c03cba0cb11020000f8d856634c9ce1</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-19 15:14:43</sys_created_on>
         <sys_id>a9ddc760db0c8010ac38dde7489619d0</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
         <sys_update_name>sp_instance_a9ddc760db0c8010ac38dde7489619d0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-22 18:32:51</sys_updated_on>
+        <sys_updated_on>2019-09-30 12:17:25</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters><![CDATA[{

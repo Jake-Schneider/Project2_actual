@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>standard</category>
+        <client_script><![CDATA[function ($scope, $sce) {
+	var c = this;
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.hc-green-header.fixed-height {&#13;
+    min-height: 400px;&#13;
+}&#13;
+&#13;
+.hc-green-header {&#13;
+    padding: 50px 30px;&#13;
+}&#13;
+.bg-image-center-fill {&#13;
+    background-size: cover;&#13;
+    background-repeat: no-repeat;&#13;
+    background-position: 50% 50%;&#13;
+}&#13;
+&#13;
+.hc-green-header-content {&#13;
+    background-color: transparent;&#13;
+  	color: #fff;&#13;
+}&#13;
+&#13;
+&#13;
+.hc-green-header-title {&#13;
+    font-size: 3.5em;&#13;
+    line-height: 1em;&#13;
+    color: #fff;&#13;
+    font-weight: 700;&#13;
+}&#13;
+&#13;
+&#13;
+.hc-green-header-title.shadow-text {&#13;
+    text-shadow: 1px 1px #000;&#13;
+    color: #fff;&#13;
+}&#13;
+&#13;
+.hc-green-header-button {&#13;
+    display: inline-table;&#13;
+   	padding: 20px 40px;&#13;
+    margin-top: 1em;&#13;
+    font-size: 18px;&#13;
+    text-align: center;&#13;
+  	color: #fff;&#13;
+    background-color: #ff6f59;&#13;
+    text-transform: uppercase;&#13;
+  	font-weight: 700;&#13;
+    border-radius: 10px;&#13;
+    border: 1px solid #ff6f59;&#13;
+  	&#13;
+}&#13;
+&#13;
+.btn-primary {&#13;
+    &#13;
+    &#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data>{"options": &#13;
+	{&#13;
+		"html": "&lt;i&gt;Hi&lt;/i&gt;",&#13;
+		"title": "HTML"&#13;
+	}&#13;
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list>title</field_list>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Dog_header_page</name>
+        <option_schema>[{"name":"html","default_value":" &lt;b&gt;hello&lt;/b&gt;","section":"Data","label":"HTML","type":"translated_html"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-30 08:56:30</sys_created_on>
+        <sys_id>e4c0ee04dbd80010915861ca0b961983</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Dog_header_page</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>sp_widget_e4c0ee04dbd80010915861ca0b961983</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-30 09:24:48</sys_updated_on>
+        <template><![CDATA[<div class="hc-green-header fixed-height bg-image-center-fill" style="background-image: url('https://www.hillsboroughcounty.org/library/hillsborough/clearshelter_hero.jpg')">
+    <div class="container hc-green-header-content">
+            <div class="hc-green-header-title shadow-text">
+                Fees Waived in Plea to Clear Shelter
+            </div>
+            <div class="hc-green-header-desc ">
+                All pets adopted from PRC are vaccinated, registered, microchipped, and spayed or neutered
+            </div>
+                     <a role="button" href="https://www.hillsboroughcounty.org/en/newsroom/2019/09/24/fees-waived-in-plea-to-clear-shelters" title="Continue reading 'Fees Waived in Plea to Clear Shelter'" target="" class="btn-primary hc-green-header-button">
+                       Read More
+                     </a>
+    </div>
+
+</div>]]></template>
+    </sp_widget>
+</record_update>

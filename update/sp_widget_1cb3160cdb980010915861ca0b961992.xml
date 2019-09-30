@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, spUtil, $element) {
+	var c = this;
+// 	$element.hide();
+// 	var height = c.options.height_from_top || 300;
+// 	height = parseInt(height);
+// 	var lastScrollTop = 0;
+// 	var container = angular.element('.sp-scroll');
+
+// 	container.on("scroll", function() {
+// 		var currentScroll = angular.element(container).scrollTop();
+// 		if(lastScrollTop > currentScroll && lastScrollTop > height && currentScroll > height) // moving up
+// 			$element.show();
+// 		else
+// 			$element.hide();
+// 		lastScrollTop = currentScroll;
+// 	});
+
+
+	$scope.goTop = function() {
+		spUtil.scrollTo('.sp-scroll', 300);
+	}
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>@media only screen and (max-width : 992px) {
+.button-to-top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px !important;
+    opacity: 0.7 !important;
+    padding: 12px !important;
+    border: 1px solid !important;
+    width: 47px;
+    height: 45px;
+    background-color: #ddd;
+  }
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>myscroll_to_top</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>MyScroll to top</name>
+        <option_schema>[{"hint":"Height from top (px) after which control would display","name":"height_from_top","section":"other","default_value":"300","label":"Height from top (px)","type":"integer"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-30 07:59:26</sys_created_on>
+        <sys_id>1cb3160cdb980010915861ca0b961992</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>MyScroll to top</sys_name>
+        <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
+        <sys_update_name>sp_widget_1cb3160cdb980010915861ca0b961992</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-30 08:11:38</sys_updated_on>
+        <template><![CDATA[<div>
+	<button name="gotoTop" ng-click="goTop()" class="btn fa fa-arrow-up fa-lg padder-lg button-to-top pull-right"></button>
+</div>]]></template>
+    </sp_widget>
+</record_update>

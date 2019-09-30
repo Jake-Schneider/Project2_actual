@@ -1,18 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
     <sp_header_footer action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <client_script><![CDATA[function() {
+        <client_script><![CDATA[function(spUtil) {
   /* widget controller */
   var c = this;
+// 	  spUtil.get("myscroll_to_top").then(function(response) {
+//             c.myScrollToTopWidget = response;
+//     });
 }]]></client_script>
         <controller_as>c</controller_as>
-        <css/>
+        <css>.hc-footer-container {
+    padding: 0 8vw;
+    min-height: 150px;
+    //background-image: url(https://www.hillsboroughcounty.org/views/footer/img/b-g-dark-blue@3x.png);
+    background-size: 100% 100%;
+    color: #fff;
+}
+
+
+
+.hc-site-links {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1em;
+    margin: 67px 0;
+}
+
+.hc-social-links {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    vertical-align: middle;
+    margin: 60px 0 20px;
+}
+
+.hc-social-icon {
+    display: inline-block;
+    border-radius: 3px;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.hc-logo {
+    height: 50px;
+    margin: 50px 0 20px;
+}
+
+.icon{
+  height: 45px;
+  width: 45px;
+}
+.logo_icon{
+  height: 55px;
+  width: 150px;
+}
+
+
+
+//?h=75&amp;amp;w=75&amp;amp;la=en&amp;amp;hash=F5FD6883300584D88C2EB7DD5147D2E38FEFBC12
+//?h=75&amp;amp;w=75&amp;amp;la=en&amp;amp;hash=2D7EE5A830B76948EC236AC5AC8CC1E62B45CC7A
+//?h=75&amp;amp;w=75&amp;amp;la=en&amp;amp;hash=39FCB191F4577BD0F4B772DA4FEC9C0159CA4E8E
+//?h=75&amp;amp;w=75&amp;amp;la=en&amp;amp;hash=C175650494E406DA0B418E6806011E5D8EEDDBA6
+//h=75&amp;amp;w=75&amp;amp;la=en&amp;amp;hash=7A0472A95764652DF8E12BC9E8087F46E2680648</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
         <docs/>
         <field_list/>
-        <has_preview>false</has_preview>
+        <has_preview>true</has_preview>
         <id/>
         <internal>false</internal>
         <link><![CDATA[function link(scope, element, attrs, controller) {
@@ -25,6 +82,7 @@
         <script><![CDATA[(function() {
   /* populate the 'data' object */
   /* e.g., data.table = $sp.getValue('table'); */
+	data.myScrollToTopWidget = $sp.getWidget('myscroll_to_top');
 
 })();]]></script>
         <servicenow>false</servicenow>
@@ -32,17 +90,119 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-29 21:16:31</sys_created_on>
         <sys_id>a64000c8db140010915861ca0b961915</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>Hillsborough footer</sys_name>
         <sys_package display_value="Project 2" source="x_393642_project_2">13a33988db440010ac38dde748961923</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project 2">13a33988db440010ac38dde748961923</sys_scope>
         <sys_update_name>sp_header_footer_a64000c8db140010915861ca0b961915</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-29 21:16:31</sys_updated_on>
-        <template><![CDATA[<div>
-<!-- your widget template -->
-  my footer page
+        <sys_updated_on>2019-09-30 08:26:49</sys_updated_on>
+        <template><![CDATA[<div class="hc-footer-container" style="background-image: url('https://www.hillsboroughcounty.org/library/hillsborough/system/backgrounds/bgdarkblue.png');">
+  <!--<sp-widget widget="::data.myScrollToTopWidget"></sp-widget>-->
+    <div class="row">
+
+        <div class="col-sm-4 col-sm-push-4">
+            <div class="hc-site-links">
+                  <a href="https://www.hillsboroughcounty.org/en/government/board-of-county-commissioners" class="" target="">Board of County Commissioners </a> 
+              		<span> | </span>
+                  <a href="https://www.hillsboroughcounty.org/en/about-hillsborough/contact-us" class="" target="">Contact Us </a>
+              		<span> | </span>
+                  <a href="https://www.hillsboroughcounty.org/en/residents/citizens/county-locations" class="" target="">County Locations</a>
+              		<span> | </span>
+                  <a href="https://www.hillsboroughcounty.org/en/about-hillsborough/jobs" class="" target="">Jobs</a>
+              		<span> | </span>
+                  <a href="https://www.hillsboroughcounty.org/en/residents/public-safety/emergency-management/hcfl-alert" class="" target="">HCFL Alert Information</a> 
+              		<span> | </span>
+                  <a href="/en/government/departments/ada" class="" target="">Accessibility </a>  
+              		<span> | </span>
+                  <a href="https://www.hillsboroughcounty.org/en/about-hillsborough/open-data/privacy" class="" target=""> Privacy </a>
+                  <div id="google_translate_element" style="display:none;">
+                    <div class="skiptranslate goog-te-gadget" dir="ltr" style="">
+                    <div id=":0.targetLanguage" class="goog-te-gadget-simple" style="white-space: nowrap;">
+                      <img src="https://www.google.com/images/cleardot.gif" class="goog-te-gadget-icon" alt="" style="background-image: url(&quot;https://translate.googleapis.com/translate_static/img/te_ctrl3.gif&quot;); background-position: -65px 0px;">
+                      <span style="vertical-align: middle;"><a aria-haspopup="true" class="goog-te-menu-value" href="javascript:void(0)">
+                        <span>Select Language</span><img src="https://www.google.com/images/cleardot.gif" alt="" width="1" height="1">
+                        <span style="border-left: 1px solid rgb(187, 187, 187);">&#8203;</span>
+                        <img src="https://www.google.com/images/cleardot.gif" alt="" width="1" height="1">
+                        <span aria-hidden="true" style="color: rgb(118, 118, 118);">▼</span>
+                        </a>
+                      </span>
+                      </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    function googleTranslateElementInit() { new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');}
+                </script>
+                <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+                <p>&nbsp;</p>
+                <ul class="list-inline small">
+                    <li><strong>Translate:</strong></li>
+                    <li><a href="?gt=1#googtrans(en|en)">English</a></li>
+                    <li><a href="?gt=1#googtrans(en|es)">Spanish</a></li>
+                    <li><a href="?gt=1#googtrans(en|vi)">Vietnamese</a></li>
+                    <li><a href="?gt=1#googtrans(en|ht)">Haitian Creole</a></li>
+                    <li><a href="?gt=1#googtrans(en|de)">German</a></li>
+                    <li><a href="?gt=1#googtrans(en|fr)">French</a></li>
+                    <li><a href="?gt=1#googtrans(en|ar)">Arabic</a></li>
+                    <li><a href="?gt=1#googtrans(en|pt)">Portugese</a></li>
+                </ul>
+                    
+            </div>
+        </div>
+        
+        <div class="col-sm-4 col-sm-push-4">
+            
+                <div class="hc-social-links">
+                        <div class="hc-social-icon">
+                                <a href="https://www.facebook.com/HillsboroughFL/" target="_blank">
+                                    <img src="https://www.hillsboroughcounty.org/library/hillsborough/system/social/iconfb3x.png?h=45&amp;w=45&amp;la=en&amp;hash=F5FD6883300584D88C2EB7DD5147D2E38FEFBC12" alt="Facebook" class = "icon">
+                                </a>
+                        </div>
+                        <div class="hc-social-icon">
+                                <a href="https://twitter.com/HillsboroughFL" target="_blank">
+                                    <img src="https://www.hillsboroughcounty.org/library/hillsborough/system/social/icont3x.png?h=75&amp;w=75&amp;la=en&amp;hash=2D7EE5A830B76948EC236AC5AC8CC1E62B45CC7A" alt="Twitter" class = "icon">
+                                </a>
+                        </div>
+                        <div class="hc-social-icon">
+                                <a href="https://www.youtube.com/user/HillsboroughCounty" target="_blank">
+                                    <img src="https://www.hillsboroughcounty.org/library/hillsborough/system/social/iconyt3x.png?h=75&amp;w=75&amp;la=en&amp;hash=39FCB191F4577BD0F4B772DA4FEC9C0159CA4E8E" alt="you-tube-icon" class = "icon">
+                                </a>
+                        </div>
+                        <div class="hc-social-icon">
+                                <a href="https://www.instagram.com/hillsboroughfl/" target="_blank">
+                                    <img src="https://www.hillsboroughcounty.org/library/hillsborough/system/social/iconi3x.png?h=75&amp;w=75&amp;la=en&amp;hash=C175650494E406DA0B418E6806011E5D8EEDDBA6" alt="Instagram" class = "icon">
+                                </a>
+                        </div>
+                        <div class="hc-social-icon">
+                                <a href="https://www.linkedin.com/company/hillsborough-county" target="_blank">
+                                    <img src="https://www.hillsboroughcounty.org/library/hillsborough/system/social/iconli3x.png?h=75&amp;w=75&amp;la=en&amp;hash=7A0472A95764652DF8E12BC9E8087F46E2680648" alt="LinkedIn" class = "icon">
+                                </a>
+                        </div>
+                </div>
+                
+                <p class="text-center">
+                    <a href="https://hcflgov.formstack.com/forms/website_feedback" target="_blank" style="color:#fff;">Provide Website Feedback</a>
+                </p>
+                
+        </div>
+        <div class="col-sm-4 col-sm-pull-8">
+            <div class="hc-logo">
+                <a href="/">
+                    <img src="https://www.hillsboroughcounty.org/library/hillsborough/system/logos/hc-logo-horizontal-rgb_drkbgrd.png?h=110&amp;w=334&amp;la=en&amp;hash=76FF6B941E21DC3E8CA268C14A145C5FDDBDA92B" class="img-responsive center-block logo_icon" alt="Hillsborough County Footer Logo">
+                </a>
+            </div>
+            
+             <p class="text-center">
+                601 E. Kennedy Blvd. <br>
+                Tampa, FL 33602
+             </p>
+                
+        </div>
+        
+    </div>
+    
 </div>]]></template>
     </sp_header_footer>
 </record_update>
